@@ -57,7 +57,6 @@ int main(void)
 {
 
     setup();
-
     BaseBall baseball;
 
     std::thread mainGameThread(baseball);
